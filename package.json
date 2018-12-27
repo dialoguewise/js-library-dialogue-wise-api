@@ -1,0 +1,40 @@
+{
+  "name": "dialogue-wise",
+  "version": "0.0.3",
+  "description": "A lightweight library that allows to easily call the Dialogue Wise Api.",
+  "author": "Ken Thomas",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kentmz/js-library-dialogue-wise-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kentmz/js-library-dialogue-wise-api/issues"
+  },
+  "homepage": "https://github.com/kentmz/js-library-dialogue-wise-api",
+  "keywords": [
+    "angular",
+    "javascript",
+    "typescript",
+    "dialogue wise",
+    "dialogue wise api"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0",
+    "jsSHA": "^2.3.1"
+  },
+  "main": "bundles/dialogue-wise.umd.js",
+  "module": "fesm5/dialogue-wise.js",
+  "es2015": "fesm2015/dialogue-wise.js",
+  "esm5": "esm5/dialogue-wise.js",
+  "esm2015": "esm2015/dialogue-wise.js",
+  "fesm5": "fesm5/dialogue-wise.js",
+  "fesm2015": "fesm2015/dialogue-wise.js",
+  "typings": "dialogue-wise.d.ts",
+  "metadata": "dialogue-wise.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
